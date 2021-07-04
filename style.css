@@ -13,6 +13,8 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+    
 }
 .top-banner{
     background-image: url(./images/top-banner.png);
@@ -26,7 +28,6 @@ section{
 }
 .half-width:last-child {
     margin-left: 0;
-    margin-bottom: 100px;
 }
 .half-width img{
     width: 95%;
@@ -39,4 +40,16 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     text-transform: uppercase;
+}
+.dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big h2{
+    font-size: 40px;
+}
+.dream-big .half-width:last-child{
+    padding-right: 6%;
+    margin-top: 50px;
 }

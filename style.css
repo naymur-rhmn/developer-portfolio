@@ -40,7 +40,7 @@ p{
 }
 .orange-btn{
     text-decoration: none;
-    background-image: linear-gradient(#FB6756, #F78A69);
+    background-image: linear-gradient(90deg, rgba(250,110,90,1) 0%, rgba(236,156,35,0.9864320728291317) 100%, rgba(255,168,46,1) 100%);
     font-weight: 700;
     color: white;
     padding: 10px 40px;
@@ -62,19 +62,18 @@ p{
 .exp-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left 80%;
 }
 .exp-area h1{
-    text-align: center;
+    letter-spacing: 3px;
 }
 .exp-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
-    padding-right: 10px;
+    padding: 20px 15px 20px 20px;
     padding-bottom: 10px;
-    box-shadow: 5px 7px 30px grey;
+    box-shadow: 3px 4px 35px grey;
 }
 
 #baby-dev{
@@ -84,7 +83,7 @@ p{
 }
 #full-dev{
     border-left: 7px solid;
-    border-image: linear-gradient(#f84531, #f3a995);
+    border-image: linear-gradient(#FF9D34,#FB6756);
     border-image-slice: 1;
 }
 footer p{

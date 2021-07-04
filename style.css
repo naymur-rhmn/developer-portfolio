@@ -26,6 +26,9 @@ section{
     padding-right: 5%;
     margin-left: 5%;
 }
+.top-banner .half-width:first-child{
+    margin-top: 50px;
+}
 .half-width:last-child {
     margin-left: 0;
 }
